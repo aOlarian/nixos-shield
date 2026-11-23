@@ -1,0 +1,8 @@
+{
+  "service": "mastodon",
+  "network": {
+    "inbound": [443],
+    "federation": ["activitypub"],
+    "outbound": ["https", "dns"]
+  }
+}

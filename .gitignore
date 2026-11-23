@@ -1,0 +1,6 @@
+/nixos-shield
+/nixos-shield.exe
+*.exe
+
+# internal workspace file, not for the public repo
+CLAUDE.md

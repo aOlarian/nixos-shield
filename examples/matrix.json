@@ -1,0 +1,8 @@
+{
+  "service": "matrix",
+  "network": {
+    "inbound": [443, 8448],
+    "federation": ["matrix"],
+    "outbound": ["https", "dns"]
+  }
+}
