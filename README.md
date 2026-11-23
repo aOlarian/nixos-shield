@@ -1,5 +1,16 @@
 # nixos-shield
 
+## Enterprise edition
+
+We build and deploy a paid Enterprise edition to order. Examples of what we can develop and extend for your organization are listed below.
+
+- Central control for firewall policy across NixOS servers, with per-host templates and rule previews.
+- Integrations with Git and deployment pipelines, including versioned policy diffs and rollback.
+- Separate author, reviewer and deployment roles with an approval log.
+
+For an Enterprise edition or custom development, contact us at [verobots.eu](https://verobots.eu/) or [olarian.com](https://olarian.com/).
+
+
 **A security guardian for self-hosted federated services on NixOS.**
 
 Status: **draft specification and working reference CLI.** The CLI converts the network portion

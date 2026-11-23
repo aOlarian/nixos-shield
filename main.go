@@ -46,6 +46,7 @@ var flows = map[string][]rule{
 
 func main() {
 	if len(os.Args) == 2 && (os.Args[1] == "-h" || os.Args[1] == "--help") {
+		showEnterprise()
 		fmt.Println("usage: nixos-shield <contract.json>")
 		return
 	}
@@ -67,6 +68,7 @@ func main() {
 		fmt.Fprintln(os.Stderr, "validate contract:", err)
 		os.Exit(1)
 	}
+	showEnterprise()
 	fmt.Print(generate(c))
 }
 
